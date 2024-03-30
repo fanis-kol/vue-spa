@@ -1,3 +1,4 @@
 import {createApp, VueElement} from 'vue';
+import App from './App.vue';
 
-createApp({}).mount('#app');
+createApp(App).mount('#app');
